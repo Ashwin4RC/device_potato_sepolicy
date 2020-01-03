@@ -1,2 +1,6 @@
 adb.network.port              u:object_r:system_prop:s0
 lineage.service.adb.root      u:object_r:system_prop:s0
+
+# Accent Picker
+persist.sys.theme.accent_light                  u:object_r:theme_prop:s0
+persist.sys.theme.accent_dark                   u:object_r:theme_prop:s0

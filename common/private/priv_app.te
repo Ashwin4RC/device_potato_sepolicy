@@ -1,1 +1,6 @@
 allow priv_app ota_package_file:dir create_dir_perms;
+
+# Allow Fries to read theme_prop
+get_prop(priv_app, theme_prop)
+# This is a neverallow -Fix later.
+set_prop(priv_app, theme_prop)
